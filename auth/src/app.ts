@@ -6,8 +6,7 @@ import { signupRouter } from './routes/signup'
 import { loginRouter } from './routes/login'
 import { currentUserRouter } from './routes/current-user'
 import { logoutRouter } from './routes/logout'
-import { errorHandler } from './middlewares/error-handler'
-import { NotFoundError } from './errors/not-found-error'
+import { errorHandler, NotFoundError } from '@bookitorg/common'
 
 const app = express()
 
